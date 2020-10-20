@@ -1,0 +1,26 @@
+{
+  "name": "node-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.10",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
